@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Medicamentos</title>
+    <h1>Registro de Medicamentos</h1>
+</head>
+<body>
+    <form action="">
+
+        <table border="1" width="100%" >
+            <tr>
+                <th>
+                    <label for="txt_Code">Código</label>
+                    <input id="txt_Code" type="number" name="Code">
+                </th>
+            
+                <th>
+                    <label for="txt_Description">Descripción</label>
+                    <input id="txt_Description" type="text">
+                </th>
+
+                <th>
+                    <label for="Select_Laboratory">Laboratorio</label>
+                    <select name="Laboratory" id="Select_Laboratory">
+                        <option value="">Seleccione</option>
+                        <option value="Air-liquide-chile"> Air liquide chile s.a.</option>
+                        <option value="Alpes-chemie">Alpes chemie s.a.</option>
+                        <option value="Astrazeneca">Astrazeneca s.a.</option>
+                        <option value="Bayer">Bayer</option>
+                        <option value="B-braun-medical">B braun medical spa.</option>
+                        <option value="Chemopharma">Chemopharma s.a.</option>
+                        <option value="Cirucare">Cirucare s.a.</option>
+                        <option value="Deutsche-pharma">Deutsche pharma s.a.</option>
+                        <option value="Difem-laboratorios">Difem laboratorios s.a.</option>
+                        <option value="Dispolab-farmaceutica">Dispolab farmaceutica s.a.</option>
+                        <option value="Exeltis-chile">Exeltis chile spa.</option>
+                        <option value="Genomma-lab-chile">Genomma lab chile s.a.</option>
+                        <option value="Johnson-y-jhonson-de-chile">Johnson y johnson de chile s.a.</option>
+                        <option value="Key-company">Key company s.a.</option>
+                        <option value="Laboratorio-chile">Laboratorio chile s.a.</option>
+                        <option value="Laboratorio-drag-pharma-chile-invetec">Laboratorio drag pharma chile invetec s.a.</option>
+                        <option value="Laboratorio-hudson">Laboratorio hudson s.a.</option>
+                        <option value="Laboratorio-pasteur">Laboratorio pasteur s.a.</option>
+                        <option value="Laboratorio-andromaco">Laboratorios andromaco s.a.</option>
+                        <option value="Laboratorios-saval">Laboratorios saval s.a.</option>
+                        <option value="Merck">Merck s.a.</option>
+                        <option value="Nutrartis">Nutrartis s.a.</option>
+                        <option value="Schnaiderman-abraham-y-cia">Schnaiderman abraham y cia. ltda.</option>
+                        <option value="Silmag-chile">Silmag chile s.a.</option>
+                        <option value="Tecnofarma">Tecnofarma s.a.</option>
+                    </select>
+                </th>
+
+            </tr>
+
+            <tr>
+                
+                <th>
+                    <label for="Select_Format">Presentación</label>
+                        <select name="Format" id="Select_Format">
+                        <option value="">Seleccione</option>
+                        <option value="Jarabe">Jarabe</option>
+                        <option value="Tablets">Tabletas</option>
+                        <option value="Capsule">Cápsula</option>
+                        <option value="Other">Otro</option>
+                </th>
+
+                <th>
+                    <label for="Select_ActiveComponents">Componente Activo</label>
+                    <select name="Componente" id="Select_ActiveComponents">
+                    <option value="">Seleccione</option>
+                    <option value="anestésicos">anestésicos</option>
+                    <option value="antibacterianos">antibacterianos</option>
+                    <option value="antieméticos">antieméticos</option>
+                    <option value="antiparasitarios">antiparasitarios</option>
+                    <option value="analgésicos">analgésicos</option>
+                    <option value="antiinflamatorios-esteroidales">antiinflamatorios esteroidales</option>
+                    <option value="antiinflamatorios-no-esteroidales">antiinflamatorios no esteroidales</option>
+                    <option value="antihistamínicos">antihistamínicos</option>
+                    <option value="Other">Otro</option>
+                </th>
+
+                <th>
+                    <label for="txt_Amount">Cantidad</label>
+                    <input type="text" id="txt_Amount" name="Amount">
+                </th>
+
+            </tr>
+
+            <tr>
+                <th colspan="4">
+
+                    <input type="reset" value="Limpiar">
+                    <input type="submit" value="Registrar">
+                    <input type="button" value="Validar">
+                
+            </tr>
+        </table>
+        
+        <tr>
+            <p><a href="01INDEX.HTML">Volver</a></p>
+        </tr>
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO 1</title>
+</head>
+<body>
+    <H1>Registro de pacientes</H1>
+    
+    <form action="">
+
+        <table border="1" width="100%" >
+            <tr>
+                <th>
+                    <label for="txt_rut">RUT</label>
+                    <input id="txt_rut" type="text" name="RUT" pattern="^[0-9]+-[0-9kK]{1}$" title="Formato válido ej. 11111111-1"
+                </th>
+            
+                <th>
+                    <label for="txt_FirstName">Primer nombre</label>
+                    <input id="txt_FirstName" type="text">
+                </th>
+
+                <th>
+                    <label for="txt_MiddleName">Segundo nombre</label>
+                    <input id="txt_MiddleName" type="text">
+                </th>
+
+            </tr>
+
+            <tr>
+                
+                <th>
+                    <label for="txt_LastNameF">Apellido paterno</label>
+                    <input id="txt_LastNameF" type="text">
+                </th>
+
+                <th>
+                    <label for="txt_LastNameM">Apellido materno</label>
+                    <input id="txt_LastNameM" type="text">
+                </th>
+
+                <th>
+                    <label for="txt_Date_Birth">Fecha de nacimiento</label>
+                    <input type="date" id="txt_Date_Birth" name="Date_Birth">
+                </th>
+
+            </tr>
+            <tr>
+                <th>
+                    <label>Sexo</label>
+                    <input type="radio" name="Sex" value="male" id="radio_male">
+                    <label for="radio_male">Masculino</label>
+                    <input type="radio" name="Sex" value="female" id="radio_female">
+                    <label for="radio_female">Femenino</label>
+                    <input type="radio" name="Sex" value="other" id="radio_other">
+                    <label for="radio_male">Otro</label>
+                </th>
+
+                <th>
+                    <label for="txt_Email">Correo electrónico</label>
+                    <input type="email" name="email" id="txt_Email">
+                </th>
+
+                <th>
+                    <label for="Select_Health_Insurance">Previsión de salud</label>
+                    <select name="Helth_Insurance" id="Select_Health_Insurance">
+                        <option value="">Seleccione</option>
+                        <option value="FONASA">FONASA</option>
+                        <option value="ISAPRE">ISAPRE</option>
+                        <option value="other">Otro</option>
+                    </select>
+                </th>     
+                  
+            </tr>
+
+            <tr>
+                <th colspan="4">
+
+                    <input type="reset" value="Limpiar">
+                    <input type="submit" value="Registrar">
+                    <input type="button" value="Validar">
+                
+            </tr>
+
+            
+        </table>
+        
+        <tr>
+            <p><a href="01INDEX.HTML">Volver</a></p>
+        </tr>
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+
+.navbar-brand {
+    padding-top: var(--bs-navbar-brand-padding-y);
+    padding-bottom: var(--bs-navbar-brand-padding-y);
+    padding-left: 8px;
+    margin-right: var(--bs-navbar-brand-margin-end);
+    
+   }
+
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: #b26821;
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    transition: color #b26821 .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+section {
+    min-height: 80vh;
+}
+
+.carousel-caption h5 {
+    color: rgb(96 53 44);
+}
+
+.carousel-caption p {
+    color: rgb(96 53 44);
+}
+
+.carousel-indicators button {
+    background-color: rgb(96 53 44);
+}
